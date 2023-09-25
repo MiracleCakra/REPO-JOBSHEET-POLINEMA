@@ -11,7 +11,7 @@ public class PemilihanPercobaan307 {
         angka1 = input08.nextDouble();
         System.out.print("Masukkan angka kedua: ");
         angka2 = input08.nextDouble();
-        System.out.print("Masukkan operator: ");
+        System.out.print("Masukkan operator (+, -, *, /): ");
         operator = input08.next().charAt(0);
 
         switch (operator) {
