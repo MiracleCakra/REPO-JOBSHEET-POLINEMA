@@ -7,13 +7,13 @@ public class PemilihanPercobaan307 {
         double angka1, angka2, hasil;
         char operator;
 
-        Scanner input08 = new Scanner(System.in);
+        Scanner input07 = new Scanner(System.in);
         System.out.print("Masukkan angka pertama: ");
-        angka1 = input08.nextDouble();
-        System.out.print("Masukkan angka kedua: ");
-        angka2 = input08.nextDouble();
+        angka1 = input07.nextDouble();
+        System.out.print07("Masukkan angka kedua: ");
+        angka2 = input07.nextDouble();
         System.out.print("Masukkan operator: ");
-        operator = input08.next().charAt(0);
+        operator = input07.next().charAt(0);
 
         switch (operator) {
             case '+':
@@ -29,7 +29,7 @@ public class PemilihanPercobaan307 {
                 System.out.println(angka1 + " / " + angka2 + " = " + (angka1 / angka2));
                 break;
             default:
-                System.out.println("Operator salah");
+                System.out.println("Operator tidak valid");
         }
     }
 }
