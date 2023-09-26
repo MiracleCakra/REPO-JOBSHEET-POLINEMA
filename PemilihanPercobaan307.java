@@ -25,8 +25,6 @@ public class PemilihanPercobaan307 {
             case '/':
                 System.out.println(angka1 + " / " + angka2 + " = " + (angka1 / angka2));
                 break;
-            default:
-                System.out.println("Operator tidak valid");
         }
     }
 }
